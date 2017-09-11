@@ -21,3 +21,4 @@ Este projeto reproduz a modelagem do banco de dados do catálogo de uma ditribui
 7 - Consultar quantos clientes maiores que 18 anos que compraram jogos por cartão de crédito.
 ---------------------
 8 - Consulte o nome e o cpf dos compradores que compraram jogos que custam mais de R$150.00.
+---------------------
