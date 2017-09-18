@@ -94,7 +94,7 @@ CREATE TABLE IF NOT EXISTS `distribuidora`.`comprador_compra_jogos` (
   `comprador_id` INT NOT NULL,
   `jogos_id` INT NOT NULL,
   `quantidade` INT NOT NULL,
-  `valor_compra` FLOAT(5,2) NOT NULL,
+  `valor_compra` FLOAT(7,2) NOT NULL,
   `tipo_pagamento_id` INT NOT NULL,
   PRIMARY KEY (`comprador_id`, `jogos_id`, `tipo_pagamento_id`),
   INDEX `fk_comprador_has_jogos_jogos1_idx` (`jogos_id` ASC),
